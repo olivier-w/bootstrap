@@ -49,9 +49,9 @@ const Tooltip = (($) => {
 
   const Default = {
     animation           : true,
-    template            : '<div class="tooltip" role="tooltip">' +
-                        '<div class="arrow"></div>' +
-                        '<div class="tooltip-inner"></div></div>',
+    template            : '<div class="pds-tooltip" role="tooltip">' +
+                        '<div class="pds-arrow"></div>' +
+                        '<div class="pds-tooltip-inner"></div></div>',
     trigger             : 'hover focus',
     title               : '',
     delay               : 0,
@@ -83,14 +83,14 @@ const Tooltip = (($) => {
   }
 
   const ClassName = {
-    FADE : 'fade',
-    SHOW : 'show'
+    FADE : 'pds-fade',
+    SHOW : 'pds-show'
   }
 
   const Selector = {
-    TOOLTIP       : '.tooltip',
-    TOOLTIP_INNER : '.tooltip-inner',
-    ARROW         : '.arrow'
+    TOOLTIP       : '.pds-tooltip',
+    TOOLTIP_INNER : '.pds-tooltip-inner',
+    ARROW         : '.apds-rrow'
   }
 
   const Trigger = {
