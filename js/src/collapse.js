@@ -41,10 +41,10 @@ const Collapse = (($) => {
   }
 
   const ClassName = {
-    SHOW       : 'show',
-    COLLAPSE   : 'collapse',
-    COLLAPSING : 'collapsing',
-    COLLAPSED  : 'collapsed'
+    SHOW       : 'pds-show',
+    COLLAPSE   : 'pds-collapse',
+    COLLAPSING : 'pds-collapsing',
+    COLLAPSED  : 'pds-collapsed'
   }
 
   const Dimension = {
@@ -53,7 +53,7 @@ const Collapse = (($) => {
   }
 
   const Selector = {
-    ACTIVES     : '.show, .collapsing',
+    ACTIVES     : '.pds-show, .pds-collapsing',
     DATA_TOGGLE : '[data-toggle="collapse"]'
   }
 

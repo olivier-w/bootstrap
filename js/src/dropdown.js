@@ -54,10 +54,10 @@ const Dropdown = (($) => {
 
   const Selector = {
     DATA_TOGGLE   : '[data-toggle="dropdown"]',
-    FORM_CHILD    : '.dropdown form',
-    MENU          : '.dropdown-menu',
-    NAVBAR_NAV    : '.navbar-nav',
-    VISIBLE_ITEMS : '.dropdown-menu .dropdown-item:not(.disabled):not(:disabled)'
+    FORM_CHILD    : '.pds-dropdown form',
+    MENU          : '.pds-dropdown-menu',
+    NAVBAR_NAV    : '.pds-navbar-nav',
+    VISIBLE_ITEMS : '.pds-dropdown-menu .pds-dropdown-item:not(.disabled):not(:disabled)'
   }
 
   const AttachmentMap = {

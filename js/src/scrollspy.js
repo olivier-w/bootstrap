@@ -41,21 +41,21 @@ const ScrollSpy = (($) => {
   }
 
   const ClassName = {
-    DROPDOWN_ITEM : 'dropdown-item',
-    DROPDOWN_MENU : 'dropdown-menu',
-    ACTIVE        : 'active'
+    DROPDOWN_ITEM : 'pds-dropdown-item',
+    DROPDOWN_MENU : 'pds-dropdown-menu',
+    ACTIVE        : 'pds-active'
   }
 
   const Selector = {
     DATA_SPY        : '[data-spy="scroll"]',
-    ACTIVE          : '.active',
-    NAV_LIST_GROUP  : '.nav, .list-group',
-    NAV_LINKS       : '.nav-link',
-    NAV_ITEMS       : '.nav-item',
-    LIST_ITEMS      : '.list-group-item',
-    DROPDOWN        : '.dropdown',
-    DROPDOWN_ITEMS  : '.dropdown-item',
-    DROPDOWN_TOGGLE : '.dropdown-toggle'
+    ACTIVE          : '.pds-active',
+    NAV_LIST_GROUP  : '.pds-nav, .pds-list-group',
+    NAV_LINKS       : '.pds-nav-link',
+    NAV_ITEMS       : '.pds-nav-item',
+    LIST_ITEMS      : '.pds-list-group-item',
+    DROPDOWN        : '.pds-dropdown',
+    DROPDOWN_ITEMS  : '.pds-dropdown-item',
+    DROPDOWN_TOGGLE : '.pds-dropdown-toggle'
   }
 
   const OffsetMethod = {

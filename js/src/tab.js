@@ -31,21 +31,21 @@ const Tab = (($) => {
   }
 
   const ClassName = {
-    DROPDOWN_MENU : 'dropdown-menu',
-    ACTIVE        : 'active',
-    DISABLED      : 'disabled',
-    FADE          : 'fade',
-    SHOW          : 'show'
+    DROPDOWN_MENU : 'pds-dropdown-menu',
+    ACTIVE        : 'pds-active',
+    DISABLED      : 'pds-disabled',
+    FADE          : 'pds-fade',
+    SHOW          : 'pds-show'
   }
 
   const Selector = {
-    DROPDOWN              : '.dropdown',
-    NAV_LIST_GROUP        : '.nav, .list-group',
-    ACTIVE                : '.active',
-    ACTIVE_UL             : '> li > .active',
+    DROPDOWN              : '.pds-dropdown',
+    NAV_LIST_GROUP        : '.pds-nav, .pds-list-group',
+    ACTIVE                : '.pds-active',
+    ACTIVE_UL             : '> li > .pds-active',
     DATA_TOGGLE           : '[data-toggle="tab"], [data-toggle="pill"], [data-toggle="list"]',
-    DROPDOWN_TOGGLE       : '.dropdown-toggle',
-    DROPDOWN_ACTIVE_CHILD : '> .dropdown-menu .active'
+    DROPDOWN_TOGGLE       : '.pds-dropdown-toggle',
+    DROPDOWN_ACTIVE_CHILD : '> .pds-dropdown-menu .pds-active'
   }
 
   /**
