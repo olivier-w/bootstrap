@@ -28,10 +28,10 @@ const Popover = (($) => {
     placement : 'right',
     trigger   : 'click',
     content   : '',
-    template  : '<div class="popover" role="tooltip">' +
-                '<div class="arrow"></div>' +
-                '<h3 class="popover-header"></h3>' +
-                '<div class="popover-body"></div></div>'
+    template  : '<div class="pds-popover" role="tooltip">' +
+                '<div class="pds-arrow"></div>' +
+                '<h3 class="pds-popover-header"></h3>' +
+                '<div class="pds-popover-body"></div></div>'
   }
 
   const DefaultType = {
@@ -40,13 +40,13 @@ const Popover = (($) => {
   }
 
   const ClassName = {
-    FADE : 'fade',
-    SHOW : 'show'
+    FADE : 'pds-fade',
+    SHOW : 'pds-show'
   }
 
   const Selector = {
-    TITLE   : '.popover-header',
-    CONTENT : '.popover-body'
+    TITLE   : '.pds-popover-header',
+    CONTENT : '.pds-popover-body'
   }
 
   const Event = {
