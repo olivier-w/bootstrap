@@ -52,19 +52,19 @@ const Modal = (($) => {
   }
 
   const ClassName = {
-    SCROLLBAR_MEASURER : 'modal-scrollbar-measure',
-    BACKDROP           : 'modal-backdrop',
-    OPEN               : 'modal-open',
-    FADE               : 'fade',
-    SHOW               : 'show'
+    SCROLLBAR_MEASURER : 'pds-modal-scrollbar-measure',
+    BACKDROP           : 'pds-modal-backdrop',
+    OPEN               : 'pds-modal-open',
+    FADE               : 'pds-fade',
+    SHOW               : 'pds-show'
   }
 
   const Selector = {
-    DIALOG             : '.modal-dialog',
+    DIALOG             : '.pds-modal-dialog',
     DATA_TOGGLE        : '[data-toggle="modal"]',
     DATA_DISMISS       : '[data-dismiss="modal"]',
-    FIXED_CONTENT      : '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top',
-    STICKY_CONTENT     : '.sticky-top'
+    FIXED_CONTENT      : '.pds-fixed-top, .pds-fixed-bottom, .pds-is-fixed, .pds-sticky-top',
+    STICKY_CONTENT     : '.pds-sticky-top'
   }
 
   /**
