@@ -31,8 +31,8 @@ const Button = (($) => {
     DATA_TOGGLE_CARROT : '[data-toggle^="button"]',
     DATA_TOGGLE        : '[data-toggle="buttons"]',
     INPUT              : 'input',
-    ACTIVE             : '.active',
-    BUTTON             : '.btn'
+    ACTIVE             : '.pds-active',
+    BUTTON             : '.pds-btn'
   }
 
   const Event = {
