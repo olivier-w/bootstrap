@@ -71,11 +71,11 @@ const Carousel = (($) => {
   }
 
   const Selector = {
-    ACTIVE      : '.active',
-    ACTIVE_ITEM : '.active.carousel-item',
-    ITEM        : '.carousel-item',
-    NEXT_PREV   : '.carousel-item-next, .carousel-item-prev',
-    INDICATORS  : '.carousel-indicators',
+    ACTIVE      : '.pds-active',
+    ACTIVE_ITEM : '.pds-active.pds-carousel-item',
+    ITEM        : '.pds-carousel-item',
+    NEXT_PREV   : '.pds-carousel-item-next, .pds-carousel-item-prev',
+    INDICATORS  : '.pds-carousel-indicators',
     DATA_SLIDE  : '[data-slide], [data-slide-to]',
     DATA_RIDE   : '[data-ride="carousel"]'
   }
